@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+   
+ /*Banner*/
+ .header {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    padding: 15px;
+    
+  }
+
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .banner-text {
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: bold;
+    font-family: 'M PLUS 1', sans-serif;
+  }
+  
+
+  .banner-left, .banner-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-left a, .banner-right a {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 20px;
+    transition: background-color 0.5s ease;
+  }
+/* End of Banner*/
+
+/*First Background*/
+.first-background{
+    width: 100%;
+    height: 40vh;
+    margin-top: 0px;
+    background-image: url(image/deanbanner.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+/* End of First-Background*/
+
+/*Second Background*/
+.second-background{
+    width: 100%;
+    height: 120vh;
+    margin-top: 0px;
+    background-image: url(image/dean01.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.second-background, h1{
+    padding-left: 3vh;
+    padding-top: 45vh;
+    font-size: 70px;
+}
+.second-background, .table01{
+    padding-left: 3vh;
+    padding-top: 0px;
+    font-size: 20px;
+}
+
+
+  /* End of Second-Background*/
+
+/*Third Background*/
+.third-background{
+    width: 100%;
+    height: 120vh;
+    margin-top: 0px;
+    background-image: url(image/dean02.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+.third-background, h2{
+    padding-left: 3vh;
+    padding-top: 60vh;
+    font-size: 10vh;
+    color: white;
+}
+.third-background, h3{
+    padding-left: 3vh;
+    padding-top: 10vh;
+    font-size: 10vh;
+    color: white;
+}
+.third-background, h4{
+    padding-left: 3vh;
+    padding-top: 3vh;
+    font-size: 3vh;
+    color: #939192;
+}
+/* End of Third-Background*/
+
+/*Fourth Background*/
+.fourth-background{
+    width: 95%;
+    height: 90vh;
+    margin-top: 0px;
+    background-image: url(image/Dean-story.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.fourth-background, h5{
+    font-size: 5vh;
+    color: white;
+    margin-left: 50px;
+}
+.fourth-background, h6{
+    font-size: 3vh;
+    color: #939192;
+    margin-left: 50px;
+}
+/*End of Fourth Background*/
+
+/*Fifth Background*/
+.fifth-background{
+    width: 100%;
+    height: 120vh;
+    margin-top: 0px;
+    background-image: url(image/dean03.JPG);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.fifth-background, h8{
+    text-align: center;
+    padding-top: 53vh;
+    font-size: 13vh;
+}
+.fifth-background, h9{
+    text-align: center;
+    font-size: 3vh;
+}
+/*End of Fifth Background*/
+
+/*sixth Background*/
+.sixth-background{
+    width: 100%;
+    height: 120vh;
+    margin-top: 0px;
+    background-image: url(image/dean04.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.sixth-background, h10{
+    padding-left: 5vh;
+    padding-top: 30vh;
+    font-size: 10vh;
+}
+.sixth-background, h11{
+    padding-left: 5vh;
+    font-size: 3vh;
+}
+button{
+    width: 200px;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid grey;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: grey;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+.button01{
+    padding-left: 5vh;
+}
+/*End of sixth Background*/
+
+/*Seventh Background*/
+.seventh-background{
+    width: 100vh;
+    height: 70vh;
+    text-align: center;
+    margin-left: 50vh;
+    margin-bottom: 10vh;
+    font-size: 3vh;
+}
+/*End of Seventh Background*/
+
+
+/*------Footer----*/
+.footer{
+    background: #f3f3f4;
+    font-family: 'M PLUS 1', sans-serif;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+/*------End of Footer----*/  

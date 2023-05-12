@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="home.css">
+<link href="link rel="preconnect href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@700;800&family=M+PLUS+1p&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@700;800&family=M+PLUS+1p:wght@400;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cantarell&family=M+PLUS+1:wght@700;800&family=M+PLUS+1p:wght@400;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cantarell&family=M+PLUS+1:wght@700;800&family=M+PLUS+1p:wght@300;400;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@700;800&family=M+PLUS+1p:wght@300;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@700;800&family=M+PLUS+1p:wght@300;400;800&display=swap" rel="stylesheet">
+<title>DINOBOX</title>
+  </head>
+
+
+
+  <body>
+      <!--Banner-->
+    <div class="banner">
+      <div class="banner-left">
+        <a href="home.html">DINOBOX</a>
+      </div>
+
+      <div class="banner-right">
+        <a href="home.html">HOME</a>
+        <a href="about-us.html">ABOUT US</a>
+        <a href="Artist'01.html">ARTIST'01</a>
+        <a href="Artist'02.html">ARTIST'02</a>
+        <a href="Artist'03.html">ARTIST'03</a>
+        <a href="Contact.html">CONTACT</a>
+      </div>
+    </div>
+      <!--End of Banner-->
+
+        <!-------First Background--------> 
+      <style>
+        .mySlides {display:none;}
+        </style>
+ 
+      <div class="first-background"> 
+        <div class="w3-content w3-section">
+          <img class="mySlides" src="image/city03.jpeg" style="width:100%" height="700px">
+          <img class="mySlides" src="image/city02.jpeg" style="width:100%" height="700px">
+          <img class="mySlides" src="image/city04.png" style="width:100%" height="700px">
+        </div>
+      </div>   
+        <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2750); // Change image every 2 seconds
+        }
+        </script>
+          <!-------End of First Background--------> 
+      
+          <!-------Second Background-------->   
+        <section>
+          <div class="Second-Background">
+            <div class="old-cd">
+              <div class="content">
+                <p>WORLD AROUND MUSIC</p>
+
+                <h1>CONNECT WITH MUSIC</h1>
+                <div class="homecontent">
+                <p><b>"Soul music is about longevity and reaching and touching people on a human level - and that's never going to get lost."</b></p>
+                    <br>
+                 <a href="#next01"><button class="button01"><span class="home-span"></span>DISCOVER MORE</button></a> 
+                </div>
+              </div>
+            </div>
+          </div>  
+        </section>
+        <!-------End of Second Background--------> 
+      <br>
+
+        <!-------Third Background-------->  
+      <section>
+        <div class="Third-Background">
+    <div class="old-cd1">
+            <div class="content1">
+             <div class="homecontent1">
+              <h1 id="next01">/01 <br> HISTORY <br> OF R&B</h1>
+             
+              <p><b>R&B can trace its roots back to the 1940s, when African American musicians began to blend blues and jazz with gospel music. The genre gained popularity in the 1950s, thanks to the success of artists such as Ray Charles, Sam Cooke, and James Brown. In the 1960s, Motown Records, founded by Berry Gordy, Jr., became a major force in R&B, with acts such as The Temptations, The Supremes, and Marvin Gaye achieving commercial success. In the 1980s and 1990s, R&B experienced a resurgence, with the emergence of artists such as Whitney Houston, Mariah Carey, and Boyz II Men. In the 2000s, R&B continued to evolve, with the rise of artists such as Beyoncé, Rihanna, and Usher.</b></p>
+               <a href="#next02"><button class="button01"><span class="home-span"></span>NEXT</button></a>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </section>
+        <!-------End of Third Background-------->
+      
+        <!-------Fourth Background-------->
+      <section>
+        <div class="Fourth-Background">
+    <div class="old-cd2">
+            <div class="content1">
+             <div class="homecontent1">
+              <h1 id="next02">/02 <br> CHARACTERISTICS <br> OF R&B</h1>
+             
+              <p><b>R&B is characterized by its strong emphasis on rhythm and melody, as well as its soulful vocals. The genre typically features a steady beat, with prominent bass and drum lines. R&B songs often feature lyrics about love, relationships, and heartbreak. The use of electronic instruments, such as synthesizers and drum machines, has become more common in modern R&B.</b></p>
+               <a href="about-us.html"><button class="button01"><span class="home-span"></span>KNOW MORE</button></a>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </section>
+        <!-------End of Fourth Background-------->
+
+
+        <!-------Fifth Background-------->
+      <div class="Fifth-Background">
+
+
+      </div>
+        <!-------End of Fifth Background-------->
+
+        <div class="container">
+
+
+          <input type="radio" name="slider" class="d-none" id="s1" checked>
+          <input type="radio" name="slider" class="d-none" id="s2">
+          <input type="radio" name="slider" class="d-none" id="s3">
+      
+          <div class="cards">
+            <label for="s1" id="slide1">
+              <div class="card">
+                <div class="image">
+                  <img src="image/weekndhead.JPG" alt="">
+                  <div class="dots">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                </div>
+                <div class="infos">
+                  <span class="name">The WEEKEND</span>
+                  <span class="lorem">R&B Singer, Songwriter</span>
+                </div>
+                <a href="Artist'01.html" class="btn-contact">FIND MORE</a>
+              </div>
+            </label>
+      
+            <label for="s2" id="slide2">
+              <div class="card">
+                <div class="image">
+                  <img src="image/deanhead.jpg" alt="">
+                  <div class="dots">
+                    <div class="dot1"></div>
+                    <div class="dot2"></div>
+                    <div class="dot3"></div>
+                  </div>
+                </div>
+                <div class="infos">
+                  <span class="name">DEAN</span>
+                  <span class="lorem">R&B Singer, Songwriter, Rapper</span>
+                </div>
+                <a href="Artist'02.html" class="btn-contact">FIND MORE</a>
+                <div class="socials">
+                </div>
+              </div>
+            </label>
+      
+            <label for="s3" id="slide3">
+              <div class="card">
+                <div class="image">
+                  <img src="image/keshihead.JPG" alt="">
+                  <div class="dots">
+                    <div class="dot1"></div>
+                    <div class="dot2"></div>
+                    <div class="dot3"></div>
+                  </div>
+                </div>
+                <div class="infos">
+                  <span class="name">KESHI</span>
+                  <span class="lorem">Singer, Songwriter</span>
+                </div>
+                <a href="Artist'03.html" class="btn-contact">FIND MORE</a>
+                <div class="socials">
+                </div>
+              </div>
+            </label>
+          </div>
+      
+        </div>
+      
+
+      <!---------footer-------->
+   <div class="footer">
+       <p>&copy; 2023 DINOBOX. All rights reserved.</p>
+   </div>
+  </body>
+</html>

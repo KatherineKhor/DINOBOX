@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+  
+    /*Banner*/
+    .header {
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 15px;
+      text-align: left;
+      padding: 15px;
+      
+    }
+  
+    .banner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+    }
+    
+    .banner-text {
+      font-family: 'M PLUS 1', sans-serif;
+      font-weight: bold;
+      font-family: 'M PLUS 1', sans-serif;
+    }
+    
+  
+    .banner-left, .banner-right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .banner-left a, .banner-right a {
+      display: block;
+      color: #fff;
+      font-size: 16px;
+      text-decoration: none;
+      padding: 20px;
+      transition: background-color 0.5s ease;
+    }
+  /* End of Banner*/
+
+
+/*First Background*/
+.first-background{
+    width: 100%;
+    height: 120vh;
+    margin-top: 0px;
+    background-image: url(image/about01.JPG);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+  /* End of First Background*/
+
+
+  /*Second Background*/
+.second-background{
+    width: 100%;
+    height: 120vh;
+    margin-top: 0px;
+    background-image: url(image/about02.JPG);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+  /* End of Second Background*/
+
+
+    /*Third Background*/
+.third-background{
+    width: 100%;
+    height: 120vh;
+    margin-top: 0px;
+    background-image: url(image/about03.JPG);
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    z-index: 1;
+}
+  /* End of Third Background*/
+
+  h1{
+    padding-left: 10vh;
+    padding-top: 60vh;
+    font-size: 150px;
+}
+h2{
+    padding-left: 10vh;
+    padding-top: 0vh;
+    font-size: 30px;
+}
+h3{
+    padding-left: 10vh;
+    padding-top: 0vh;
+    font-size: 13px;
+    text-align: justify;
+    padding-right: 100vh;
+}
+
+  /*------Footer----*/
+.footer{
+    background: #f3f3f4;
+    font-family: 'M PLUS 1', sans-serif;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+/*------End of Footer----*/    
